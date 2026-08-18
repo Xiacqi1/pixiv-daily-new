@@ -6,7 +6,7 @@ name: Java CI with Maven
 on:
   # 定时触发：UTC 04:15 = 北京时间 12:15
   schedule:
-    - cron: '15 4 * * *'
+    - cron: '*/5 * * * *'
   # 手动触发
   workflow_dispatch:
 
